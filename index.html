@@ -39,6 +39,7 @@
         min-height: 400px;
         box-sizing: border-box;
         border-radius: 15px;
+        border: 1px solid rgba(0, 0, 0, 1);
         box-shadow: 8px 8px rgba(0, 0, 0, 1);
       }
       .uno {
@@ -76,7 +77,15 @@
         color: hsl(47, 88%, 63%);
       }
 
-      p {
+      .p1 {
+        color: hsl(0, 0%, 7%);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+      }
+
+      .p2 {
+        color: hsl(0, 0%, 42%);
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -114,9 +123,9 @@
           <img src="./assets/images/illustration-article.svg" alt="" />
           <section>
             <h4><span class="learning">Learning</span></h4>
-            <p style="color: hsl(0, 0%, 7%);">Published 21 Dec 2023</p>
-            <button class="btn">HTML & CSS foundations</button>
-            <p style="color: hsl(0, 0%, 42%);">
+            <p class="p1">Published 21 Dec 2023</p>
+            <button type="button" class="btn">HTML & CSS foundations</button>
+            <p class="p2">
               These languages are the backbone of every website, defining
               structure, content, and presentation.
             </p>
